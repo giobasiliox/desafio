@@ -122,3 +122,10 @@ button{
     margin-right: 35%;
 
 }
+#ganhou{
+    margin-left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    color: black;
+    width: 30%;
+}
