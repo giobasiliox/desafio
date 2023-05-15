@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css"> 
- <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1 class="text">Placar de vôlei</h1>
+    <article id="ar">
+        <div id="equipe1">
+            <h2>Equipe A</h2>
+            <p id="set1">set 1: 0</p>
+            <p id="set2">set 2: 0</p>
+            <p id="set3">set 3: 0</p>
+            <p id="set4">set 4: 0</p>
+            <p id="set5">set 5: 0</p>
+            <hr>
+            <p id="sg1">Set ganhos:</p>
+            <div id="butoes">
+                <button id="botao+1" onclick="aumentarPontos()">+</button><button id="botao-1"
+                    onclick=" diminuirPontos()">-</button>
+            </div>
+        </div>
+        <div id="placar">
+            <h2>Placar Atual:</h2>
+            <h1 id="eq1">0</h1>
+            <p>x</p>
+            <h1 id="eq2">0</h1>
+        </div>
+        <div id="equipe2">
+            <h2>Equipe B</h2>
+            <p id="set11">set 1: 0</p>
+            <p id="set12">set 2: 0</p>
+            <p id="set13">set 3: 0</p>
+            <p id="set14">set 4: 0</p>
+            <p id="set15">set 5: 0</p>
+            <hr>
+            <p id="sg2">Set ganhos:</p>
+            <div id="butoes2">
+                <button id="botao+2" onclick="aumentarPontos2()">+</button><button id="botao-2"
+                    onclick="diminuirPontos2()">-</button>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div>
+            <p id="ganhou"></p>
+        </div>
+    </article>
 </body>
+
 </html>

@@ -1,3 +1,124 @@
+/* body{
+    background-color: antiquewhite;
+}
+#ar{
+    display: flex;
+
+}
+#butoes{
+    display: flex;
+}
+button{
+    background-color: black;
+    color: white;
+} */
 body{
-    background-color: red;
+    background-color: rgb(221, 218, 203);
+}
+
+.text{
+    text-align: center;
+}
+
+#ar{
+    display: flex;
+
+}
+
+#equipe1 {
+    text-align: center;
+    margin: 5%;
+    width: 30%;
+    background-color: rgb(197, 192, 169);
+    -webkit-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+
+}
+
+#placar{
+    text-align: center;
+    margin: 5%;
+    width: 30%;
+    background-color: rgb(197, 192, 169);
+    -webkit-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+#equipe2{
+    text-align: center;
+    margin: 5%;
+    width: 30%;
+    background-color: rgb(197, 192, 169);
+    -webkit-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.4);
+    
+}
+
+
+
+#b0{
+    width: 18%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+#b2{
+    width: 18%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+#b3{
+    width:18%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+#b4{
+    width: 18%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+}
+
+/* placar */
+
+
+.placaratual {
+    display: flex;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+#n0 {
+    margin-top: 32%;
+    margin-left: 35%;
+   
+}
+
+#x {
+    margin-top: 34%;
+    margin-left: 5%;
+  
+}
+
+#n2 {
+    margin-top: 32%;
+    margin-left: 5%;
+    margin-right: 35%;
+
 }
