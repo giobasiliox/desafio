@@ -40,6 +40,7 @@ if(setsganhosA == 3||setsganhosB == 3){
 
     if (setsganhosA == 3) {
       return document.getElementById("ganhou").innerHTML = "O time A ganhou. Parábens, quer o quê? Um biscoito? 🙄"
+      
     }
     if (setsganhoB == 3) {
       return document.getElementById("ganhou").innerHTML = "O time B ganhou. Parábens, quer o quê? Um biscoito? 🙄"
