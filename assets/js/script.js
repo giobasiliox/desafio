@@ -6,6 +6,13 @@ var setsganhosB = 0;
 var i = 1;
 
 function aumentarPontos() {
+
+if(setsganhosA == 3||setsganhosB == 3){
+
+  return;
+
+}
+
   aumentar++;
   if (aumentar === maxPontos || aumentar2 === maxPontos) {
     console.log("Entrou no if 1")
@@ -32,10 +39,10 @@ function aumentarPontos() {
     document.getElementById("sg2").innerHTML = `Sets ganhos: ${setsganhosB}`;
 
     if (setsganhosA == 3) {
-      document.getElementById("ganhou").innerHTML = "O time A ganhou. Parábens, quer o quê? Um biscoito? 🙄"
+      return document.getElementById("ganhou").innerHTML = "O time A ganhou. Parábens, quer o quê? Um biscoito? 🙄"
     }
     if (setsganhoB == 3) {
-      document.getElementById("ganhou").innerHTML = "O time B ganhou. Parábens, quer o quê? Um biscoito? 🙄"
+      return document.getElementById("ganhou").innerHTML = "O time B ganhou. Parábens, quer o quê? Um biscoito? 🙄"
     }
 
     aumentar = 0;
@@ -56,6 +63,13 @@ function diminuirPontos() {
 let setsganhoB;
 
 function aumentarPontos2() {
+
+  
+if(setsganhosA == 3||setsganhosB == 3){
+
+  return;
+
+}
   aumentar2++;
   if (aumentar === maxPontos || aumentar2 === maxPontos) {
     console.log("Entrou no if 2")
@@ -63,7 +77,6 @@ function aumentarPontos2() {
     document.getElementById("set" + i).innerHTML = `set ${i}: ${aumentar}`;
     document.getElementById("set1" + i).innerHTML = `set ${i}: ${aumentar2}`;
 
-    i++;
     if (aumentar > aumentar2) {
       setsganhosA++;
       console.log("Entrou aqui if b");
